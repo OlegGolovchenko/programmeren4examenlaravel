@@ -1,0 +1,228 @@
+html{
+    position: relative;
+    width: 100%;
+    height: 1080px;
+}
+
+body{
+    width: 99%;
+    height: 1080px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+header{
+    float: left;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 10%;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+header h1{
+    float:right;
+    margin-right: 2%;
+}
+
+#burger{
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    -moz-box-sizing: boreder-box;
+    float: left;
+    width: 5%;
+    height: 50%;
+    margin: 2%;
+    border-radius: 15px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+main{
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 66%;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+footer{
+    float: left;
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 10%;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+footer a{
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    appearance: button;
+    -moz-appearance: button;
+    -webkit-appearance: button;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#tiles{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#tiles a{
+    float: left;
+    margin: 1%;
+    width: 23%;
+    height: 27%;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#tiles a p{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 25%;
+    width: 100%;
+    height: 100%;
+}
+
+#contols{
+    float:left;
+    width: 48%;
+    height: 96%;
+    margin: 1%;
+}
+
+#list{
+    float: left;
+    right: 0%;
+    top: 0%;
+    margin: 1%;
+    width: 48%;
+    height: 96%;
+}
+
+#list table{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#list table thead{
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+#model{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    height: 12%;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#model label,button{
+    float: left;
+    height: 100%;
+}
+
+#model label{
+    height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#model button{
+    width: 20%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.lblBtn{
+    width: 80%;
+}
+
+.lbl2Btn{
+    width: 60%;
+}
+
+.lbl4Btn{
+    width: 20%;
+}
+
+#editform{
+    position: relative;
+    left: 0%;
+    margin: 0%;
+    width: 100%;
+    padding: 1%;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#editform input{
+    border-radius: 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0.5%;
+}
+
+#editform select{
+    border-radius: 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0.5%;
+}
+
+#editform label{
+    margin: 0.5%;
+}
+
+#feedback{
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    margin: 0%;
+    width: 100%;
+    padding: 1%;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
